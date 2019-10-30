@@ -1,0 +1,143 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: red;
+  -webkit-animation-name: test;
+          animation-name: test;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes test {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: blue;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background: green;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background: yellow;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background: grey;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes test {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: blue;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background: green;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background: yellow;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background: grey;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: red;
+  -webkit-animation-name: test2;
+          animation-name: test2;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  animation-direction: reverse;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes test2 {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: blue;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background: green;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background: yellow;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background: grey;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes test2 {
+  0% {
+    background: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background: blue;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background: green;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background: yellow;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background: grey;
+    left: 0px;
+    top: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
